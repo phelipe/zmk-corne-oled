@@ -67,7 +67,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I         &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S  &kp D     &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
+&td0       &kp A  &kp S  &kp D     &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K         &kp L    &kp SEMI  &kp SINGLE_QUOTE
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp ESC
                          &kp LGUI  &mo 1  &kp SPACE                                               &kp ENTER  &mo 2  &kp LEFT_ALT
             >;
@@ -79,7 +79,7 @@
             display-name = "NUMBER";
             bindings = <
 &kp TAB           &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                                   &mmv MOVE_UP                     &kp N6     &kp N7    &kp N8        &kp N9      &kp N0  &kp BSPC
-&kp LEFT_SHIFT    &none   &none   &none         &bt BT_SEL 2  &kp F4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN  &kp UP        &kp RIGHT   &none   &kp LA(SINGLE_QUOTE)
+&kp LEFT_SHIFT    &none   &none   &none         &bt BT_SEL 2  &kp F4                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN  &kp UP        &kp RIGHT   &none   &kp RA(SINGLE_QUOTE)
 &kp LEFT_CONTROL  &none   &none   &none         &none         &none      &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none     &kp COMMA     &kp PERIOD  &none   &kp DEL
                                   &kp LEFT_WIN  &none         &kp SPACE                                                                 &kp ENTER  &mo 3     &kp LEFT_ALT
             >;
